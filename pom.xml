@@ -7,7 +7,7 @@
   <packaging>war</packaging>
   <distributionManagement>
        <repository>
-           <id>nexus</id>
+           <id>deploy-ib-shared-005-release</id>
            <url>http://localhost:8081/repository/deploy-ib-shared-005-release</url>
        </repository>
   </distributionManagement> 
