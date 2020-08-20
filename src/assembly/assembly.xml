@@ -7,13 +7,13 @@
   <includeBaseDirectory>false</includeBaseDirectory>
   <files>
 	<file>
-		<source>/web/helloworld.war</source>
+		<source>/war/helloworld.war</source>
 	</file>
 	<file>
-		<source>/web1/helloworld1.war</source>
+		<source>/war1/helloworld1.war</source>
 	</file>
 	<file>
-		<source>/web2/helloworld2.war</source>
+		<source>/war2/helloworld2.war</source>
 	</file>
   </files>
 </assembly>
