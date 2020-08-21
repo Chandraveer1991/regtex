@@ -38,7 +38,7 @@
   </build>
   <distributionManagement>
        <repository>
-           <id>deploy-ib-shared-005-release</id>
+           <id>ubs-deployment</id>
            <url>http://localhost:8081/repository/deploy-ib-shared-005-release</url>
        </repository>
   </distributionManagement> 
