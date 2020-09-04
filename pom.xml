@@ -13,7 +13,7 @@
 				<configuration>
 				    <descriptors>
 						<descriptor>src/assembly/assembly.xml</descriptor>
-						<finalName>valiii.zip</finalName>
+						<finalName>valiii</finalName>
 					</descriptors>
 				</configuration>
 				<executions>
