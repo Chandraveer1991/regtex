@@ -5,6 +5,7 @@
       <groupId>com.ubs.opsdwregtek</groupId>
       <artifactId>regtex-validate-trade</artifactId>
       <version>1.0.1-SNAPSHOT</version>
+      <packaging>pom</packaging>
   </parent>
 	
   <groupId>com.ubs.opsdwregtek</groupId>
