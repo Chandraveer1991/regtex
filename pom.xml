@@ -7,36 +7,38 @@
   <packaging>pom</packaging>
 
   <build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<configuration>
-				    <descriptors>
-						<descriptor>src/assembly/assembly.xml</descriptor>
-						<finalName>valiii</finalName>
-					</descriptors>
-				</configuration>
-				<executions>
-					<execution>
-						<id>ubs-deploy</id>
-						<phase>install</phase>
-						<goals>
-							<goal>
-								single
-							</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>2.6</version>
-				<configuration>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
-			</plugin>
-		</plugins>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>ubs-deploy</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>
+                                single
+                            </goal>
+                        </goals>
+                        <configuration>
+                           <finalName>valiit</finalName>
+                           <appendAssemblyId>false</appendAssemblyId>
+                           <descriptors>
+                              <descriptor>src/assembly/assembly.xml</descriptor>
+                              <finalName>valiii</finalName>
+                           </descriptors>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
   </build>
   <distributionManagement>
        <repository>
