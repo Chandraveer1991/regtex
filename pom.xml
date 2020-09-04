@@ -24,7 +24,6 @@
                            <appendAssemblyId>false</appendAssemblyId>
                            <descriptors>
                               <descriptor>src/assembly/assembly.xml</descriptor>
-                              <finalName>valiii</finalName>
                            </descriptors>
                         </configuration>
                     </execution>
