@@ -5,7 +5,6 @@
     <format>zip</format>
   </formats>
   <includeBaseDirectory>false</includeBaseDirectory>
-  <destName>vali.zip</destName>
   <files>
 	<file>
 		<source>/war/helloworld.war</source>
