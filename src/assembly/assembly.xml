@@ -15,8 +15,5 @@
 	<file>
 		<source>/war2/helloworld2.war</source>
 	</file>
-	<file>
-		<source>/war3/helloworld3.war</source>
-	</file>
   </files>
 </assembly>
