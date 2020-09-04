@@ -8,7 +8,7 @@
   </parent>
 	
   <groupId>com.ubs.opsdwregtek</groupId>
-  <artifactId>regtex-validate-trade</artifactId>	
+  <artifactId>web</artifactId>	
   <packaging>war</packaging>
   <build>
 		<plugins>
